@@ -262,9 +262,9 @@ h2 {
 }
 
 @media (max-width:426px){
-    .navbar .container{
+    /* .navbar .container{
         width: 50%;
-    }
+    } */
 
     .navbar-nav {
         background-color: #2D4356;
@@ -329,6 +329,11 @@ h2 {
 
     .footer{
         padding-right: 15px;
+        justify-items: center;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
     }
 
     .footer-title{
@@ -336,8 +341,8 @@ h2 {
     }
 
     .footer .social-icons a{
-        font-size: 10px;
-        padding-right: 7px;
+        font-size: 15px;
+        padding-right: 10px;
     }
 
 }
